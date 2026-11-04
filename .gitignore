@@ -1,0 +1,25 @@
+# Dependências
+node_modules/
+venv/
+.venv/
+__pycache__/
+
+# Builds
+dist/
+build/
+out/
+*.class
+
+# Ambiente e dados locais
+.env
+*.db
+*.sqlite
+*.db-wal
+*.db-shm
+data/
+
+# Sistema / editores
+.DS_Store
+.vscode/
+.idea/
+*.log

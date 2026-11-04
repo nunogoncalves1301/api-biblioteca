@@ -1,0 +1,15 @@
+{
+  "name": "api-biblioteca",
+  "version": "1.0.0",
+  "description": "API REST de uma biblioteca com Express e SQLite",
+  "type": "module",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "node --watch src/server.js"
+  },
+  "dependencies": {
+    "better-sqlite3": "^12.2.0",
+    "express": "^5.1.0"
+  }
+}
